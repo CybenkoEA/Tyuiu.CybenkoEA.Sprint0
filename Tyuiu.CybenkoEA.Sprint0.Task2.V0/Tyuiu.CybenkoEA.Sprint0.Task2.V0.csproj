@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{922B75CF-D2A1-44CD-9324-5CCA979858FD}</ProjectGuid>
+    <ProjectGuid>{372BEC72-51B3-4DDE-8933-E2164FD1530C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.CybenkoEA.Sprint0.Task1.V0</RootNamespace>
-    <AssemblyName>Tyuiu.CybenkoEA.Sprint0.Task1.V0</AssemblyName>
+    <RootNamespace>Tyuiu.CybenkoEA.Sprint0.Task2.V0</RootNamespace>
+    <AssemblyName>Tyuiu.CybenkoEA.Sprint0.Task2.V0</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.CybenkoEA.Sprint0.Task2.V0.Lib\Tyuiu.CybenkoEA.Sprint0.Task2.V0.Lib.csproj">
-      <Project>{d83e8587-844c-4277-b30e-d9ce7f65fa30}</Project>
-      <Name>Tyuiu.CybenkoEA.Sprint0.Task2.V0.Lib</Name>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.CybenkoEA.Sprint0.Task2.V0.Test\Tyuiu.CybenkoEA.Sprint0.Task2.V0.Test.csproj">
+      <Project>{1786f984-7240-447f-9a3d-7814ac724536}</Project>
+      <Name>Tyuiu.CybenkoEA.Sprint0.Task2.V0.Test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
